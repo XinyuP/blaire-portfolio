@@ -348,6 +348,7 @@ img {
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
+  margin-bottom: 2px;
 }
 
 .button:hover {
@@ -1346,18 +1347,19 @@ img {
   text-align: center;
   /* background-color: #f1f1f1; */
   margin-top: 20px;
-
+  height: 650px;
+  overflow-y:"hidden"
 
 }
 
 .card img{
   object-fit: cover;
 
-width: 60px;
+  width: 60px;
 
-/* margin:20px; */
+  /* margin:20px; */
 
-height: 200px;
+  height: 200px;
 }
 
 .card:hover {
@@ -1371,19 +1373,31 @@ img {
 
 .card-container {
   padding: 2px 16px;
+  height: 400px;
+  text-overflow: ellipsis;
+  overflow:scroll;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.card-container p {
+  text-align: left;
+}
+
+.links{
+  text-align: center;
+  display: block;
+
+}
 
 
 
 /* Float four columns side by side */
 .column {
   float: left;
-  width: 33%;
+  width: 33.33%;
   padding: 0 10px;
 }
 
